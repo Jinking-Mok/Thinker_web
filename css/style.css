@@ -92,3 +92,26 @@ body {
   height: 100%;
   border: none;
 } */
+@media only screen and (max-width: 600px) {
+  .header {
+    font-size: 35px;
+  }
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .main > li {
+    width: 100px;
+    height: 120px;
+    margin: 10px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    padding: 15px 10px;
+  }
+  .main__input .main__input-text {
+    font-size: 11px;
+  }
+}
